@@ -1,6 +1,7 @@
 import { CSSProperties, PropsWithChildren } from 'react';
 
 type StackProps = PropsWithChildren & {
+  onClick?: () => void;
   orientation: 'horizontal' | 'vertical';
 };
 
